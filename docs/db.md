@@ -2,6 +2,6 @@
 
 ```
 DROP TABLE IF EXISTS user;
-create table IF NOT EXISTS user(name string, passwd string,PRIMARY KEY (name));
+create table IF NOT EXISTS user(user_id int, name string, passwd string,PRIMARY KEY (user_id));
 ```
 
